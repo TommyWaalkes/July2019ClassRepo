@@ -1,0 +1,11 @@
+C:\Users\Tommy\source\repos\Loops\Loops\bin\Debug\netcoreapp2.1\Loops.deps.json
+C:\Users\Tommy\source\repos\Loops\Loops\bin\Debug\netcoreapp2.1\Loops.runtimeconfig.json
+C:\Users\Tommy\source\repos\Loops\Loops\bin\Debug\netcoreapp2.1\Loops.runtimeconfig.dev.json
+C:\Users\Tommy\source\repos\Loops\Loops\bin\Debug\netcoreapp2.1\Loops.dll
+C:\Users\Tommy\source\repos\Loops\Loops\bin\Debug\netcoreapp2.1\Loops.pdb
+C:\Users\Tommy\source\repos\Loops\Loops\obj\Debug\netcoreapp2.1\Loops.csprojAssemblyReference.cache
+C:\Users\Tommy\source\repos\Loops\Loops\obj\Debug\netcoreapp2.1\Loops.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\source\repos\Loops\Loops\obj\Debug\netcoreapp2.1\Loops.AssemblyInfoInputs.cache
+C:\Users\Tommy\source\repos\Loops\Loops\obj\Debug\netcoreapp2.1\Loops.AssemblyInfo.cs
+C:\Users\Tommy\source\repos\Loops\Loops\obj\Debug\netcoreapp2.1\Loops.dll
+C:\Users\Tommy\source\repos\Loops\Loops\obj\Debug\netcoreapp2.1\Loops.pdb

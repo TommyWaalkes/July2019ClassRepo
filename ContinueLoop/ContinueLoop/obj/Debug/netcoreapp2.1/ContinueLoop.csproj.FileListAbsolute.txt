@@ -1,0 +1,11 @@
+C:\Users\Tommy\source\repos\ContinueLoop\ContinueLoop\bin\Debug\netcoreapp2.1\ContinueLoop.deps.json
+C:\Users\Tommy\source\repos\ContinueLoop\ContinueLoop\bin\Debug\netcoreapp2.1\ContinueLoop.runtimeconfig.json
+C:\Users\Tommy\source\repos\ContinueLoop\ContinueLoop\bin\Debug\netcoreapp2.1\ContinueLoop.runtimeconfig.dev.json
+C:\Users\Tommy\source\repos\ContinueLoop\ContinueLoop\bin\Debug\netcoreapp2.1\ContinueLoop.dll
+C:\Users\Tommy\source\repos\ContinueLoop\ContinueLoop\bin\Debug\netcoreapp2.1\ContinueLoop.pdb
+C:\Users\Tommy\source\repos\ContinueLoop\ContinueLoop\obj\Debug\netcoreapp2.1\ContinueLoop.csprojAssemblyReference.cache
+C:\Users\Tommy\source\repos\ContinueLoop\ContinueLoop\obj\Debug\netcoreapp2.1\ContinueLoop.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\source\repos\ContinueLoop\ContinueLoop\obj\Debug\netcoreapp2.1\ContinueLoop.AssemblyInfoInputs.cache
+C:\Users\Tommy\source\repos\ContinueLoop\ContinueLoop\obj\Debug\netcoreapp2.1\ContinueLoop.AssemblyInfo.cs
+C:\Users\Tommy\source\repos\ContinueLoop\ContinueLoop\obj\Debug\netcoreapp2.1\ContinueLoop.dll
+C:\Users\Tommy\source\repos\ContinueLoop\ContinueLoop\obj\Debug\netcoreapp2.1\ContinueLoop.pdb
