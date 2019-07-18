@@ -1,0 +1,11 @@
+C:\Users\Tommy\Desktop\July 2019 Repo\DebuggerDemo\DebuggerDemo\bin\Debug\netcoreapp2.1\DebuggerDemo.deps.json
+C:\Users\Tommy\Desktop\July 2019 Repo\DebuggerDemo\DebuggerDemo\bin\Debug\netcoreapp2.1\DebuggerDemo.runtimeconfig.json
+C:\Users\Tommy\Desktop\July 2019 Repo\DebuggerDemo\DebuggerDemo\bin\Debug\netcoreapp2.1\DebuggerDemo.runtimeconfig.dev.json
+C:\Users\Tommy\Desktop\July 2019 Repo\DebuggerDemo\DebuggerDemo\bin\Debug\netcoreapp2.1\DebuggerDemo.dll
+C:\Users\Tommy\Desktop\July 2019 Repo\DebuggerDemo\DebuggerDemo\bin\Debug\netcoreapp2.1\DebuggerDemo.pdb
+C:\Users\Tommy\Desktop\July 2019 Repo\DebuggerDemo\DebuggerDemo\obj\Debug\netcoreapp2.1\DebuggerDemo.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\DebuggerDemo\DebuggerDemo\obj\Debug\netcoreapp2.1\DebuggerDemo.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\DebuggerDemo\DebuggerDemo\obj\Debug\netcoreapp2.1\DebuggerDemo.AssemblyInfoInputs.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\DebuggerDemo\DebuggerDemo\obj\Debug\netcoreapp2.1\DebuggerDemo.AssemblyInfo.cs
+C:\Users\Tommy\Desktop\July 2019 Repo\DebuggerDemo\DebuggerDemo\obj\Debug\netcoreapp2.1\DebuggerDemo.dll
+C:\Users\Tommy\Desktop\July 2019 Repo\DebuggerDemo\DebuggerDemo\obj\Debug\netcoreapp2.1\DebuggerDemo.pdb

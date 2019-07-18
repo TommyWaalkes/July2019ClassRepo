@@ -18,3 +18,10 @@ C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\Exceptions\E
 C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\Exceptions\Exceptions\obj\Debug\Exceptions.exe
 C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\Exceptions\Exceptions\obj\Debug\Exceptions.pdb
 C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\Exceptions\Exceptions\obj\Debug\Exceptions.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\Exceptions\Exceptions\bin\Debug\Exceptions.exe.config
+C:\Users\Tommy\Desktop\July 2019 Repo\Exceptions\Exceptions\bin\Debug\Exceptions.exe
+C:\Users\Tommy\Desktop\July 2019 Repo\Exceptions\Exceptions\bin\Debug\Exceptions.pdb
+C:\Users\Tommy\Desktop\July 2019 Repo\Exceptions\Exceptions\obj\Debug\Exceptions.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\Exceptions\Exceptions\obj\Debug\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\Exceptions\Exceptions\obj\Debug\Exceptions.exe
+C:\Users\Tommy\Desktop\July 2019 Repo\Exceptions\Exceptions\obj\Debug\Exceptions.pdb

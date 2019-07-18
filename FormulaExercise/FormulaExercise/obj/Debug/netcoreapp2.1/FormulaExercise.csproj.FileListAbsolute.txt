@@ -1,0 +1,11 @@
+C:\Users\Tommy\Desktop\July 2019 Repo\FormulaExercise\FormulaExercise\bin\Debug\netcoreapp2.1\FormulaExercise.deps.json
+C:\Users\Tommy\Desktop\July 2019 Repo\FormulaExercise\FormulaExercise\bin\Debug\netcoreapp2.1\FormulaExercise.runtimeconfig.json
+C:\Users\Tommy\Desktop\July 2019 Repo\FormulaExercise\FormulaExercise\bin\Debug\netcoreapp2.1\FormulaExercise.runtimeconfig.dev.json
+C:\Users\Tommy\Desktop\July 2019 Repo\FormulaExercise\FormulaExercise\bin\Debug\netcoreapp2.1\FormulaExercise.dll
+C:\Users\Tommy\Desktop\July 2019 Repo\FormulaExercise\FormulaExercise\bin\Debug\netcoreapp2.1\FormulaExercise.pdb
+C:\Users\Tommy\Desktop\July 2019 Repo\FormulaExercise\FormulaExercise\obj\Debug\netcoreapp2.1\FormulaExercise.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\FormulaExercise\FormulaExercise\obj\Debug\netcoreapp2.1\FormulaExercise.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\FormulaExercise\FormulaExercise\obj\Debug\netcoreapp2.1\FormulaExercise.AssemblyInfoInputs.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\FormulaExercise\FormulaExercise\obj\Debug\netcoreapp2.1\FormulaExercise.AssemblyInfo.cs
+C:\Users\Tommy\Desktop\July 2019 Repo\FormulaExercise\FormulaExercise\obj\Debug\netcoreapp2.1\FormulaExercise.dll
+C:\Users\Tommy\Desktop\July 2019 Repo\FormulaExercise\FormulaExercise\obj\Debug\netcoreapp2.1\FormulaExercise.pdb

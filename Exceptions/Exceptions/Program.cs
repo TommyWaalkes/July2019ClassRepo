@@ -9,7 +9,7 @@ namespace Exceptions
     {
         static void Main(string[] args)
         {
-            OfferBeer();  
+            DuckHotel();
         }
 
         public static void OfferMoney()
@@ -71,6 +71,7 @@ namespace Exceptions
                 Console.WriteLine(e.GetType());
                 Console.WriteLine(e.Message);
                 Console.WriteLine(e.HelpLink);
+                
             }
             catch (FormatException e)
             {
