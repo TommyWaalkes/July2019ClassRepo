@@ -15,10 +15,12 @@ namespace Lists
             //numbers[0] = 3;
             numbers.Add(5);
             numbers[0] = 8;
-            numbers.Insert(1, 12);
             numbers.Add(6);
             numbers.Add(100);
-
+            numbers.Insert(3, 12);
+            numbers.Add(int.Parse("1"));
+            //numbers[3] = 99;
+            Console.WriteLine(numbers.Count);
             Console.WriteLine("For loop example");
             for (int i = 0; i < numbers.Count; i++)
             {
@@ -49,9 +51,11 @@ namespace Lists
             Console.WriteLine("Let's kick out Billy");
            
            //bandMembers.RemoveAll(x => x =="Billy");
+           //bandMembers.Remove("Billy");
            // bandMembers.Remove("Billy");
-            //bandMembers.Clear();
-           
+
+           // bandMembers.Clear();
+
 
             for (int i = 0; i < bandMembers.Count; i++)
             {
@@ -63,7 +67,7 @@ namespace Lists
             {
                 Console.WriteLine("Oh man how did Billy get in here? Oh man run, he's acting cray!");
                 Console.WriteLine("Looks like Billy broke up the band");
-                bandMembers.RemoveRange(0, bandMembers.Count);
+                bandMembers.RemoveRange(0, 2);
                 int members = bandMembers.Count;
                 Console.WriteLine(members);
                 try

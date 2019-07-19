@@ -11,3 +11,10 @@ C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\Lists\bin\De
 C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\Lists\obj\Debug\Lists.csproj.CoreCompileInputs.cache
 C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\Lists\obj\Debug\Lists.exe
 C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\Lists\obj\Debug\Lists.pdb
+C:\Users\Tommy\Desktop\July 2019 Repo\Lists\bin\Debug\Lists.exe.config
+C:\Users\Tommy\Desktop\July 2019 Repo\Lists\bin\Debug\Lists.exe
+C:\Users\Tommy\Desktop\July 2019 Repo\Lists\bin\Debug\Lists.pdb
+C:\Users\Tommy\Desktop\July 2019 Repo\Lists\obj\Debug\Lists.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\Lists\obj\Debug\Lists.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\Lists\obj\Debug\Lists.exe
+C:\Users\Tommy\Desktop\July 2019 Repo\Lists\obj\Debug\Lists.pdb
