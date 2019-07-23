@@ -50,7 +50,7 @@ namespace Lists
             Console.WriteLine();
             Console.WriteLine("Let's kick out Billy");
            
-           //bandMembers.RemoveAll(x => x =="Billy");
+           bandMembers.RemoveAll(x => x =="Billy");
            //bandMembers.Remove("Billy");
            // bandMembers.Remove("Billy");
 
