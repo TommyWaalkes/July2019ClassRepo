@@ -35,11 +35,34 @@ namespace Lab8Breakout
             {
                 Console.WriteLine("A valid int was not given");
             }
-
-            Student s = students[pick];
+            Student s;
+            try
+            {
+                s = students[pick];
+            }
+            catch(IndexOutOfRangeException e)
+            {
+                Console.WriteLine("Incorrect input I'm assuming you want the person at index 0");
+                s = students[0];
+            }
             string name = s.GetName();
             Console.WriteLine(name);
+            Console.WriteLine($"What would you like to learn about {name}?");
+            Console.WriteLine("1) Favorie Food ff");
+            Console.WriteLine("2) Home Town ht");
+            string input2 = Console.ReadLine().ToLower().Trim();
 
+            if(input2 == "1" || input2 == "ff")
+            {
+                Console.WriteLine(s.FavoriteFood);
+            }
+            else if(input2 == "2"|| input2 == "ht")
+            {
+                Console.WriteLine(s.HomeTown);
+            }
+
+
+            
         }
     }
 }
