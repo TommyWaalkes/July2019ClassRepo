@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Lab8Breakout
 {
@@ -14,12 +15,20 @@ namespace Lab8Breakout
             Student s1 = new Student("Jill", "Raleigh", "Chicken");
             Student s2 = new Student("Jaime", "Scranton", "Ketchup");
             Student s3 = new Student("James", "George Town", "Cheese");
+            Student s4 = new Student("Alvin", "Rodeo Trash can", "Grits n Gravy");
 
             List<Student> students = new List<Student>();
             students.Add(s1);
             students.Add(s2);
             students.Add(s3);
-            Console.WriteLine("Which student would you like to learn about: 0-2");
+            students.Add(s4);
+            students.Add(new Student("Zeek", "A house", "Sausage"));
+            students.Add(new Student("Aardvark", "Loveshack", "Fish"));
+            Console.WriteLine("Okay let's alphabetize the list");
+
+            students = students.OrderBy(x=>x.Name).ToList();
+
+            Console.WriteLine("Which student would you like to learn about: 0-" +students.Count);
             for(int i = 0; i < students.Count; i++)
             {
                 Student stu = students[i];
@@ -63,6 +72,30 @@ namespace Lab8Breakout
 
 
             
+        }
+
+        public static List<Student> SortStringList(List<Student> unsortedList)
+        {
+            Student s1 = unsortedList[0];
+            Student s2 = unsortedList[1];
+            string name1 = s1.Name.ToLower();
+            string name2 = s2.Name.ToLower();
+
+            char c1 = name1[0];
+            char c2 = name2[0];
+
+            if (c1 > c2)
+            {
+                //name2 needs to be earlier in the list
+            }
+            else if(c1 < c2)
+            {
+                //they're in order so we can move on
+            }
+            else
+            {
+                //They're equal we need to check the next letter
+            }
         }
     }
 }
