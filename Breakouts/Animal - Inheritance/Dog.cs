@@ -12,7 +12,10 @@ namespace Animal_Inheritance
         {
             
         }
-
+        public override string GetColor()
+        {
+            return "Black";
+        }
         public override string GetFood()
         {
             return "Dog treats and kibble";

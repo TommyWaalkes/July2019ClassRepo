@@ -36,7 +36,7 @@ namespace Animal_Inheritance
             return hasFeathers;
         }
 
-        public string GetColor()
+        public virtual string GetColor()
         {
             return "brown";
         }

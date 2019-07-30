@@ -10,6 +10,12 @@ namespace Animal_Inheritance
     {
         static void Main(string[] args)
         {
+            Otter o = new Otter("Joshua");
+            o.PrintFood();
+
+            Rabbit r = new Rabbit("Bugs Bunny");
+            Console.WriteLine(r.GetFood());
+
             Bird tweet = new Bird("Mark Fidrych");
             tweet.PrintFood();
             if (tweet.HasFeathers())
