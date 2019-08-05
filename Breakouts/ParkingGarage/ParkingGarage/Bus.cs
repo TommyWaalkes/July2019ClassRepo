@@ -8,7 +8,7 @@ namespace ParkingGarage
     {
         public bool BusParking(List<ParkingSpot> Spots)
         {
-            if(Spots.Count < 5)
+            if (Spots.Count < 4)
             {
                 return false;
             }
@@ -17,8 +17,9 @@ namespace ParkingGarage
                 int largeSpotTogether = 0;
                 for(int i = 0; i < Spots.Count; i++)
                 {
+                    Console.WriteLine(i);
                     ParkingSpot p = Spots[i];
-                    if(largeSpotTogether >= 5)
+                    if(largeSpotTogether >= 4)
                     {
                         return true;
                     }

@@ -5,6 +5,7 @@ namespace ParkingGarage
 {
     class Program
     {
+        public static List<string> tasks = new List<string>();
         static void Main(string[] args)
         {
             Motorcycle m = new Motorcycle();
@@ -20,14 +21,18 @@ namespace ParkingGarage
 
             List<ParkingSpot> Spots = new List<ParkingSpot>();
             Bus b = new Bus();
+            Spots.Add(new SmallSpot());
             Spots.Add(new LargeSpot());
             Spots.Add(new LargeSpot());
             Spots.Add(new LargeSpot());
             Spots.Add(new LargeSpot());
             Spots.Add(new LargeSpot());
-            Console.WriteLine(b.BusParking(Spots));
+            Spots.Add(new SmallSpot());
+            Spots.Add(new SmallSpot()); 
+            Console.WriteLine("Bus tries to park: "+b.BusParking(Spots));
 
-
+            Level l = new Level(Spots);
+            Console.WriteLine(l.Capacity);
         }
     }
 }
