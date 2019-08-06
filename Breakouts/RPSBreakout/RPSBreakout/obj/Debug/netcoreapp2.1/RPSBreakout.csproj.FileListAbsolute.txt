@@ -1,0 +1,11 @@
+C:\Users\Tommy\Desktop\July 2019 Repo\Breakouts\RPSBreakout\RPSBreakout\bin\Debug\netcoreapp2.1\RPSBreakout.deps.json
+C:\Users\Tommy\Desktop\July 2019 Repo\Breakouts\RPSBreakout\RPSBreakout\bin\Debug\netcoreapp2.1\RPSBreakout.runtimeconfig.json
+C:\Users\Tommy\Desktop\July 2019 Repo\Breakouts\RPSBreakout\RPSBreakout\bin\Debug\netcoreapp2.1\RPSBreakout.runtimeconfig.dev.json
+C:\Users\Tommy\Desktop\July 2019 Repo\Breakouts\RPSBreakout\RPSBreakout\bin\Debug\netcoreapp2.1\RPSBreakout.dll
+C:\Users\Tommy\Desktop\July 2019 Repo\Breakouts\RPSBreakout\RPSBreakout\bin\Debug\netcoreapp2.1\RPSBreakout.pdb
+C:\Users\Tommy\Desktop\July 2019 Repo\Breakouts\RPSBreakout\RPSBreakout\obj\Debug\netcoreapp2.1\RPSBreakout.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\Breakouts\RPSBreakout\RPSBreakout\obj\Debug\netcoreapp2.1\RPSBreakout.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\Breakouts\RPSBreakout\RPSBreakout\obj\Debug\netcoreapp2.1\RPSBreakout.AssemblyInfoInputs.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\Breakouts\RPSBreakout\RPSBreakout\obj\Debug\netcoreapp2.1\RPSBreakout.AssemblyInfo.cs
+C:\Users\Tommy\Desktop\July 2019 Repo\Breakouts\RPSBreakout\RPSBreakout\obj\Debug\netcoreapp2.1\RPSBreakout.dll
+C:\Users\Tommy\Desktop\July 2019 Repo\Breakouts\RPSBreakout\RPSBreakout\obj\Debug\netcoreapp2.1\RPSBreakout.pdb

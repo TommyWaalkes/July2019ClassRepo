@@ -26,7 +26,7 @@ namespace ParkingGarage
             Spots.Add(new LargeSpot());
             Spots.Add(new LargeSpot());
             Spots.Add(new LargeSpot());
-            Spots.Add(new LargeSpot());
+            Spots.Add(new SmallSpot());
             Spots.Add(new SmallSpot());
             Spots.Add(new SmallSpot()); 
             Console.WriteLine("Bus tries to park: "+b.BusParking(Spots));
