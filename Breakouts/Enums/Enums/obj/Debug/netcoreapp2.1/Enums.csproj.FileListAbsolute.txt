@@ -1,0 +1,11 @@
+C:\Users\Tommy\source\repos\Enums\Enums\bin\Debug\netcoreapp2.1\Enums.deps.json
+C:\Users\Tommy\source\repos\Enums\Enums\bin\Debug\netcoreapp2.1\Enums.runtimeconfig.json
+C:\Users\Tommy\source\repos\Enums\Enums\bin\Debug\netcoreapp2.1\Enums.runtimeconfig.dev.json
+C:\Users\Tommy\source\repos\Enums\Enums\bin\Debug\netcoreapp2.1\Enums.dll
+C:\Users\Tommy\source\repos\Enums\Enums\bin\Debug\netcoreapp2.1\Enums.pdb
+C:\Users\Tommy\source\repos\Enums\Enums\obj\Debug\netcoreapp2.1\Enums.csprojAssemblyReference.cache
+C:\Users\Tommy\source\repos\Enums\Enums\obj\Debug\netcoreapp2.1\Enums.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\source\repos\Enums\Enums\obj\Debug\netcoreapp2.1\Enums.AssemblyInfoInputs.cache
+C:\Users\Tommy\source\repos\Enums\Enums\obj\Debug\netcoreapp2.1\Enums.AssemblyInfo.cs
+C:\Users\Tommy\source\repos\Enums\Enums\obj\Debug\netcoreapp2.1\Enums.dll
+C:\Users\Tommy\source\repos\Enums\Enums\obj\Debug\netcoreapp2.1\Enums.pdb
