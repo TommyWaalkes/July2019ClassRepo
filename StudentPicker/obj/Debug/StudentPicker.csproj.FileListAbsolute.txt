@@ -1,0 +1,21 @@
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\StudentPicker\bin\Debug\StudentPicker.exe.config
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\StudentPicker\bin\Debug\StudentPicker.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\StudentPicker\bin\Debug\StudentPicker.pdb
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\StudentPicker\obj\Debug\StudentPicker.csprojResolveAssemblyReference.cache
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\StudentPicker\obj\Debug\StudentPicker.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\StudentPicker\obj\Debug\StudentPicker.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\StudentPicker\obj\Debug\StudentPicker.pdb
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Helper Scripts\StudentPicker\bin\Debug\StudentPicker.exe.config
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Helper Scripts\StudentPicker\bin\Debug\StudentPicker.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Helper Scripts\StudentPicker\bin\Debug\StudentPicker.pdb
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Helper Scripts\StudentPicker\obj\Debug\StudentPicker.csprojAssemblyReference.cache
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Helper Scripts\StudentPicker\obj\Debug\StudentPicker.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Helper Scripts\StudentPicker\obj\Debug\StudentPicker.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Helper Scripts\StudentPicker\obj\Debug\StudentPicker.pdb
+C:\Users\Tommy\source\repos\StudentPicker\bin\Debug\StudentPicker.exe.config
+C:\Users\Tommy\source\repos\StudentPicker\bin\Debug\StudentPicker.exe
+C:\Users\Tommy\source\repos\StudentPicker\bin\Debug\StudentPicker.pdb
+C:\Users\Tommy\source\repos\StudentPicker\obj\Debug\StudentPicker.csprojAssemblyReference.cache
+C:\Users\Tommy\source\repos\StudentPicker\obj\Debug\StudentPicker.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\source\repos\StudentPicker\obj\Debug\StudentPicker.exe
+C:\Users\Tommy\source\repos\StudentPicker\obj\Debug\StudentPicker.pdb
