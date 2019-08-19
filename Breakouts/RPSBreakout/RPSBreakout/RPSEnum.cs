@@ -6,8 +6,8 @@ namespace RPSBreakout
 {
     enum RPSEnum
     {
-        Rock,
-        Paper,
-        Scissors
+        rock,
+        paper,
+        scissors
     }
 }

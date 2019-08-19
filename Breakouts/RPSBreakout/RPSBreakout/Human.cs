@@ -21,15 +21,15 @@ namespace RPSBreakout
 
             if (input == "1")
             {
-                return RPSEnum.Rock.ToString();
+                return RPSEnum.rock.ToString();
             }
             else if(input == "2")
             {
-                return RPSEnum.Paper.ToString();
+                return RPSEnum.paper.ToString();
             }
             else if(input == "3")
             {
-                return RPSEnum.Scissors.ToString();
+                return RPSEnum.scissors.ToString();
             }
             else
             {

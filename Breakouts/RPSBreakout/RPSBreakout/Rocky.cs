@@ -13,7 +13,7 @@ namespace RPSBreakout
         }
         public override string GetRPS()
         {
-            return RPSEnum.Rock.ToString();
+            return RPSEnum.rock.ToString();
         }
     }
 }
