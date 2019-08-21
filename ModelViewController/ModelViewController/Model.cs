@@ -8,23 +8,24 @@ namespace ModelViewController
 {
     class Model
     {
-        List<string> names = new List<string>();
+        List<string> Names { get; set; }
         public Model()
         {
-            names.Add("Tommy");
-            names.Add("joey");
-            names.Add("Phil");
-            names.Add("Billy");
-            names.Add("Notorious T Wizzle");
+            Names = new List<string>();
+            Names.Add("Tommy");
+            Names.Add("joey");
+            Names.Add("Phil");
+            Names.Add("Billy");
+            Names.Add("Notorious T Wizzle");
         }
         public string GetName(int index)
         {
-            return names[index];
+            return Names[index];
         }
 
         public List<string> GetAllNames()
         {
-            return names;
+            return Names;
         }
     }
 }

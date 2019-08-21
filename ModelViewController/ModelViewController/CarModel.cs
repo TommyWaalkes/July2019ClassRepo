@@ -8,19 +8,20 @@ namespace ModelViewController
 {
     class CarModel
     {
-        List<string> carNames = new List<string>();
+        List<string> CarNames { get; set; }
         public CarModel()
         {
-            carNames.Add("Pope Mobile");
-            carNames.Add("Camry");
-            carNames.Add("Bat Mobile");
-            carNames.Add("Invisible Jet");
-            carNames.Add("Wienermobile");
+            CarNames = new List<string>();
+            CarNames.Add("Pope Mobile");
+            CarNames.Add("Camry");
+            CarNames.Add("Bat Mobile");
+            CarNames.Add("Invisible Jet");
+            CarNames.Add("Wienermobile");
         }
 
         public List<string> GetNames()
         {
-            return carNames;
+            return CarNames;
         }
     }
 }

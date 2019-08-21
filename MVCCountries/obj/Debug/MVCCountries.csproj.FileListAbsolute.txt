@@ -1,0 +1,14 @@
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Breakouts\MVCCountries\bin\Debug\MVCCountries.exe.config
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Breakouts\MVCCountries\bin\Debug\MVCCountries.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Breakouts\MVCCountries\bin\Debug\MVCCountries.pdb
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Breakouts\MVCCountries\obj\Debug\MVCCountries.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Breakouts\MVCCountries\obj\Debug\MVCCountries.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Breakouts\MVCCountries\obj\Debug\MVCCountries.pdb
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Breakouts\MVCCountries\obj\Debug\MVCCountries.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\MVCCountries\bin\Debug\MVCCountries.exe.config
+C:\Users\Tommy\Desktop\July 2019 Repo\MVCCountries\bin\Debug\MVCCountries.exe
+C:\Users\Tommy\Desktop\July 2019 Repo\MVCCountries\bin\Debug\MVCCountries.pdb
+C:\Users\Tommy\Desktop\July 2019 Repo\MVCCountries\obj\Debug\MVCCountries.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\MVCCountries\obj\Debug\MVCCountries.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\MVCCountries\obj\Debug\MVCCountries.exe
+C:\Users\Tommy\Desktop\July 2019 Repo\MVCCountries\obj\Debug\MVCCountries.pdb
