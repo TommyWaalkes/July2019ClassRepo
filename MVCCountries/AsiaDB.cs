@@ -15,7 +15,7 @@ namespace MVCCountries
             string[] VietnamColors = { "Red", "Gold" };
             Countries.Add(new Country("Vietnam", "Vietnamese", "Du ma!", VietnamColors));
             string[] MyanmarColors = { "Gold", "Red", "Green" };
-            Countries.Add(new Country("Myanmar", "Burmese", "Sup!", MyanmarColors));
+            Countries.Add(new Country("Myanmar", "Burmese", "Hi there!", MyanmarColors));
             string[] ThailandColors = { "Red", "White", "Blue" };
             Countries.Add(new Country("Thailand","Thai", "Hello! ", ThailandColors));
 

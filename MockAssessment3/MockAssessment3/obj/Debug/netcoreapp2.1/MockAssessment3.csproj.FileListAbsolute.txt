@@ -1,0 +1,11 @@
+C:\Users\Tommy\Desktop\July 2019 Repo\MockAssessment3\MockAssessment3\bin\Debug\netcoreapp2.1\MockAssessment3.deps.json
+C:\Users\Tommy\Desktop\July 2019 Repo\MockAssessment3\MockAssessment3\bin\Debug\netcoreapp2.1\MockAssessment3.runtimeconfig.json
+C:\Users\Tommy\Desktop\July 2019 Repo\MockAssessment3\MockAssessment3\bin\Debug\netcoreapp2.1\MockAssessment3.runtimeconfig.dev.json
+C:\Users\Tommy\Desktop\July 2019 Repo\MockAssessment3\MockAssessment3\bin\Debug\netcoreapp2.1\MockAssessment3.dll
+C:\Users\Tommy\Desktop\July 2019 Repo\MockAssessment3\MockAssessment3\bin\Debug\netcoreapp2.1\MockAssessment3.pdb
+C:\Users\Tommy\Desktop\July 2019 Repo\MockAssessment3\MockAssessment3\obj\Debug\netcoreapp2.1\MockAssessment3.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\MockAssessment3\MockAssessment3\obj\Debug\netcoreapp2.1\MockAssessment3.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\MockAssessment3\MockAssessment3\obj\Debug\netcoreapp2.1\MockAssessment3.AssemblyInfoInputs.cache
+C:\Users\Tommy\Desktop\July 2019 Repo\MockAssessment3\MockAssessment3\obj\Debug\netcoreapp2.1\MockAssessment3.AssemblyInfo.cs
+C:\Users\Tommy\Desktop\July 2019 Repo\MockAssessment3\MockAssessment3\obj\Debug\netcoreapp2.1\MockAssessment3.dll
+C:\Users\Tommy\Desktop\July 2019 Repo\MockAssessment3\MockAssessment3\obj\Debug\netcoreapp2.1\MockAssessment3.pdb
