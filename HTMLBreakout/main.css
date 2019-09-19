@@ -1,0 +1,17 @@
+p,h2,li{
+    color:red;
+}
+
+body{
+    background-color: orange;
+}
+
+.hello{
+    font-size: 200%;
+    color: blueviolet;
+}
+
+#conflict{
+    font-size: 50%;
+    color: yellow;
+}
