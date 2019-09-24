@@ -11,6 +11,7 @@ let mexico = new Country("Mexico", "Spanish", "Hola mundo!", ["red", "white", "g
 let algeria = new Country("Algeria", "Arabic and Berber", "Sup", ["blue", "yellow", "red"])
 let Rome = new Country("Rome", "Latin", "Salve Munde!", ["red", "gold", "purple"]);
 let China = new Country("China", "Chineese", "Nihao!", ["red", "yellow", "yellow"]);
+
 let countries = [];
 countries.push(usa, mexico, algeria, Rome, China);
 function MakeCountryDropDown() {
