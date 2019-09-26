@@ -1,0 +1,21 @@
+1) SELECT * FROM Customers
+2) SELECT Country FROM Customers
+3) SELECT * FROM Customers WHERE CustomerID LIKE 'BI%' 
+4) SELECT * FROM Orders WHERE OrderID < 10348
+5) SELECT * FROM Customers Where PostalCode = '1010' Or PostalCode = '3012' OR PostalCode = '12209' OR PostalCode = '05023'
+6) SELECT * FROM orders WHERE ShipRegion IS NOT NULL
+7) SELECT * FROM Customers ORDER BY Country, City
+8) INSERT INTO customers 
+9) UPDATE Orders SET ShipRegion ='EuroZone' Where ShipCountry = 'France'  
+10) DELETE FROM [Order Details]
+WHERE quantity = 1
+
+11) AVG: SELECT AVG(quantity) FROM [Order Details]
+SELECT MAX(quantity) FROM [Order Details]
+SELECT MIN(quantity) FROM [Order Details]
+12) SELECT MAX(quantity), MIN(quantity), AVG(quantity) FROM [Order Details]
+GROUP BY OrderID
+13) SELECT CustomerID FROM orders WHERE OrderID = 10290
+14)
+15) SELECT FirstName FROM Employees WHERE ReportsTo Is Null
+16) SELECT FirstName FROM Employees WHERE ReportsTo = 2
