@@ -1,0 +1,18 @@
+﻿@using FirstMVCApp.Models
+
+<h2>Any time you need a class in your CSHTML simple create a using statement at the top to pull in your models folder</h2>
+<h2>This using statement can display models created in the page AND passed in from another source.</h2>
+@{ 
+    Fish f = new Fish();
+    f.Name = "Freddy";
+    f.Scales = 20;
+    f.Species = "Tuna";
+}
+
+<h1>Fish 1 Name: @f.Name</h1>
+
+@{ 
+    Fish f2 = ViewBag.fish; 
+}
+
+<h2>Fish 2 Name: @f2.Name</h2>

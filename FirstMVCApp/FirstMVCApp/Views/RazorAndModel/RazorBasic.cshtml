@@ -1,0 +1,16 @@
+﻿@{
+    string hello = "hello World";
+    int age = 27;
+    age *= age;
+}
+
+<p>@hello</p>
+<h2>Age: @age</h2>
+@{ 
+    int[] nums = { 2, 3, 67, 199, 302 };
+}
+
+@foreach(int i in nums)
+{
+    <h2>@i</h2>
+}

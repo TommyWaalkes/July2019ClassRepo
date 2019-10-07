@@ -1,0 +1,24 @@
+﻿@model IEnumerable<FirstMVCApp.Models.Fish>
+
+<h1>For Each Loop</h1>
+@foreach (Fish f in Model)
+{
+    <h2>@f.Name</h2>
+    <p>@f.Scales</p>
+    <p>@f.Species</p>
+    <br/>
+}
+
+<h1>For Loop </h1>
+@{
+    List<Fish> fishes = Model.ToList();
+}
+@for (int i = 0; i < fishes.Count; i++)
+{
+    Fish f = fishes[i];
+    <h2>Fish Number @i</h2>
+    <p>@f.Name</p>
+    <p>@f.Scales</p>
+    <p>@f.Species</p>
+    <br />
+}
