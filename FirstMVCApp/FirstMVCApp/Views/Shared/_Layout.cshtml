@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -15,8 +16,11 @@
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
+    
 </head>
-<body>
+
+
+<body id="Body">
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -34,8 +38,21 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                     <li><a asp-controller="Home" asp-action="Fish">Fish</a></li>
-                   <li>@Html.ActionLink("Fish Page", "Fish", "Home")</li>
+                    <li>@Html.ActionLink("Fish Page", "Fish", "Home")</li>
+                    <li><a asp-controller="StateManagement" asp-action="Index">Login</a></li>
                 </ul>
+
+                @{
+                    var name = TempData.Peek("name") ?? null;
+
+                }
+                @if (name != null)
+                {
+                    <p style="color:white">Hello @name</p>
+                    <a asp-controller="StateManagement" asp-action="Logout">Logout</a>
+
+                }
+
             </div>
         </div>
     </nav>
@@ -74,3 +91,29 @@
     @RenderSection("Scripts", required: false)
 </body>
 </html>
+
+<script>
+    let x = document.cookie;
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    let y = getCookie("color");
+    console.log(y);
+    let b = document.getElementById("Body")
+    console.log(b);
+    b.style = "background-color:" + y;
+</script>

@@ -18,7 +18,7 @@ namespace FirstMVCApp.Controllers
         {
             Fish f = new Fish();
             f.Name = "Frankie";
-            ViewBag.fish = f;
+            ViewBag.fish = "hello world";
             return View();
         }
 
@@ -30,7 +30,7 @@ namespace FirstMVCApp.Controllers
             f.Scales = 33;
             f.Species = "Swordfish";
             //Crap this won't display Frankie, what do we doooooo?!
-            return View();
+            return View(f);
         }
 
         public IActionResult List()

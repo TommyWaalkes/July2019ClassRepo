@@ -18,7 +18,6 @@ namespace FirstMVCApp.Models
         [Required]
         public string Password { get; set; }
 
-        [Required]
         [Range(18,99)]
         public int Age { get; set; }
     }

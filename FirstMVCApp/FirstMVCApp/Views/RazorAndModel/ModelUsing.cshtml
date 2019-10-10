@@ -12,7 +12,13 @@
 <h1>Fish 1 Name: @f.Name</h1>
 
 @{ 
-    Fish f2 = ViewBag.fish; 
-}
-
+    try
+    {
+        Fish f2 = ViewBag.fish;
 <h2>Fish 2 Name: @f2.Name</h2>
+    }
+    catch(Exception e)
+    {
+        <p>Error data put into the Viewbag.fish was not a fish</p>
+    }
+}
