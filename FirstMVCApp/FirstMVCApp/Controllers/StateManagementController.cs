@@ -22,11 +22,11 @@ namespace FirstMVCApp.Controllers
             TempData["password"] = u.Password;
             return RedirectToAction("Secret");
         }
-
+        
         public IActionResult Secret()
         {
             //Why won't the password show up in our view?
-            ViewBag.password = TempData["password"];
+            //ViewBag.password = TempData.Peek("password");
             return View();
         }
 
