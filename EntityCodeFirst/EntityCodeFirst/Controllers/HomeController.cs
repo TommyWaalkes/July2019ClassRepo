@@ -4,18 +4,17 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using FirstMVCApp.Models;
+using EntityCodeFirst.Models;
 
-namespace FirstMVCApp.Controllers
+namespace EntityCodeFirst.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult MakeUser()
-        {
-            return View();
-        }
+        public StudentContext db = new StudentContext();
         public IActionResult Index()
         {
+            List<Student> students = db.Students.ToList();
+            ViewBag.list = students;
             return View();
         }
 
@@ -44,21 +43,23 @@ namespace FirstMVCApp.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult Fish()
+        //this is for displaying the view 
+        public IActionResult Create()
         {
             return View();
         }
 
-        public IActionResult Registration()
+        //this is for handling the form input 
+        [HttpPost]
+        public IActionResult Create(Student s)
         {
-            return View();
-        }
+            if (ModelState.IsValid)
+            {
+                db.Students.Add(s);
+                db.SaveChanges();
+            }
 
-        public IActionResult Result(User u)
-        {
-            ViewBag.Name = u.UserName;
-
-            return View();
+            return RedirectToAction("Index");
         }
     }
 }
