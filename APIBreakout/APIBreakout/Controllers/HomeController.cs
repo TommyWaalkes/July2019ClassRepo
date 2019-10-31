@@ -52,10 +52,9 @@ namespace APIBreakout.Controllers
         {
             string text = CallStarWarsAPI(Id);
             JToken t = JToken.Parse(text);
+            Person p = new Person(t);
 
-            ViewBag.name = t["name"];
-
-            return View();
+            return View(p);
         }
 
         public IActionResult Privacy()
