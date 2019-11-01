@@ -13,10 +13,24 @@ namespace APIBreakout.Controllers
 {
     public class HomeController : Controller
     {
-        //This method calls and returns the response from our API
-        public string CallStarWarsAPI(int Id)
+       public string CallBeerAPI()
         {
-            HttpWebRequest request = WebRequest.CreateHttp("https://swapi.co/api/people/" + Id);
+            string key = "48e769ab3f324bf2753fde2bc06e1fbc";
+            HttpWebRequest request = WebRequest.CreateHttp($"https://sandbox-api.brewerydb.com/v2/beers/?key={key}");
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+            //This will convert the response to a string
+            StreamReader rd = new StreamReader(response.GetResponseStream());
+
+            string APIText = rd.ReadToEnd();
+
+            return APIText;
+        }
+        
+        //This method calls and returns the response from our API
+        public string CallStarWarsAPI(int Id, string type)
+        {
+            HttpWebRequest request = WebRequest.CreateHttp($"https://swapi.co/api/{type}/{Id}");
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
             //This will convert the response to a string
@@ -27,19 +41,44 @@ namespace APIBreakout.Controllers
             return APIText;
         }
 
-        public JToken ParseSWAPI(string text)
+        public JToken ParseJsonString(string text)
         {
             JToken output = JToken.Parse(text);
             return output;
+        }
+
+        public string CallSWAPIPlanet(int Id)
+        {
+            HttpWebRequest request = WebRequest.CreateHttp($"https://swapi.co/api/planet/{Id}");
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+            //This will convert the response to a string
+            StreamReader rd = new StreamReader(response.GetResponseStream());
+
+            string APIText = rd.ReadToEnd();
+
+            return APIText;
         }
 
         public IActionResult Index()
         {
             //  ViewBag.text = CallStarWarsAPI();
 
-            string text = CallStarWarsAPI(1);
-            JToken t = ParseSWAPI(text);
-            ViewBag.name = t["name"];
+            Person luke = StarWarsDAL.GetPerson(1);
+            ViewBag.name = luke.Name;
+
+            //string beerText = CallBeerAPI();
+            //JToken t2 = ParseJsonString(beerText);
+
+            //ViewBag.beer = t2.ToString();
+            return View();
+        }
+
+        public IActionResult Planet()
+        {
+            string planetData = CallSWAPIPlanet(1);
+            JToken p = ParseJsonString(planetData);
+
             return View();
         }
 
@@ -48,9 +87,10 @@ namespace APIBreakout.Controllers
             return View();
         }
 
-        public IActionResult Result(int Id)
+
+        public IActionResult Result(int Id, string Type)
         {
-            string text = CallStarWarsAPI(Id);
+            string text = CallStarWarsAPI(Id, Type);
             JToken t = JToken.Parse(text);
             Person p = new Person(t);
 
