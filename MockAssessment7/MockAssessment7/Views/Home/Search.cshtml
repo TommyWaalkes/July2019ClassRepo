@@ -1,0 +1,11 @@
+﻿@model MockAssessment7.Models.Donut
+
+<p>@Model.Name</p>
+
+<p>@Model.Id</p>
+
+<img src="@Model.PhotoUrl" height="100px" width="auto"/>
+@foreach(string extra in Model.Extras)
+{
+    <p>@extra</p>
+}
