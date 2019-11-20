@@ -1,0 +1,32 @@
+﻿@model Assessment7aSolution.Models.AnimalInfo
+
+@{
+    ViewData["Title"] = "Species";
+}
+
+<h1>Species</h1>
+
+<div>
+    <h4>AnimalInfo</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Species)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Species)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Diet)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Diet)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Habitat)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Habitat)
+        </dd>
+    </dl>
+</div>

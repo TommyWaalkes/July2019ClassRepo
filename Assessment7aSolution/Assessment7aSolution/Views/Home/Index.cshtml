@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Assessment7aSolution.Models.AnimalListing>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>List</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Species)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Species)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<form asp-action="Species">
+    <p>Animal Species look Up:</p>
+    <input type="text" name="AnimalSpecies"/>
+    <input type="submit"/>
+</form>
